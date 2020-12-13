@@ -1,0 +1,180 @@
+/* Table of Contents */
+/* 1. Google Font */
+/* 2. Global Changes */
+/* 3. Header */
+/* 3.1 Nav */
+/* 4. Main */
+/* 5. Footer */
+/* Google Font */
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+/* Global Chnages */
+
+html {
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: auto;
+}
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+body {
+    background-color: #ffffcd;
+    background-image: url(../images/elChurritoBG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font: normal .9em/2.8em "Bahnschrift", "sans serif";
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+ul {
+    list-style: none;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: #ff6c08;
+}
+p {
+    font-size: 1.4em;
+}
+.orangeLinks {
+    background: #ff6c08;
+    color: white;
+    border-radius: .8em;
+    padding: .8em .8em;
+    font: normal 1.7em/1em "Bahnschrift", "sans serif";
+}
+.orangeLinks:hover {
+    color: black;
+}
+.heading {
+    font:normal 4.5em/1.5 'lobster', 'sans serif';
+    text-align: center;
+    margin-bottom: 0;
+}
+.logo {
+    width: 7%;
+}
+
+/* 3. Header */
+
+/* 3.1 Nav */
+
+nav {
+    padding: 1.5em 0;
+    text-align: center;
+}
+nav ul {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 2.1em;
+}
+nav li {
+    display: inline-block;
+    margin: 0 1.5em;
+    font-size: 1.1em;
+}
+.dropdownContents {
+    display: none;
+    position: absolute;
+    color: white;
+    background-color: #ff6c08;
+    padding: 0.7em 0.9em;
+}
+.dropdown:hover .dropdownContents {
+    display: block;
+}
+.dropdownContents a:hover {
+    color: white;
+}
+nav .orangeLinks {
+    padding: 1em;
+    font-size: inherit;
+}
+
+/* End of Header */
+
+
+/* 4. Main */
+
+h1 { 
+    color: #ff6c08;   
+    font-size: 3.5em;
+    font-weight: bold;
+}
+span {
+    color: green;   
+    font-weight: bold;
+}
+#thankyou{
+    display: none;
+}
+main {
+    text-align: center;    
+}
+form { 
+    margin-top: 20px;    
+    text-align: center;
+}
+.info{
+	display: inline-block;	 	
+}
+#bta {     
+    background-color: #989898;    
+    color: orange;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 1% 15%;
+ }
+fieldset {
+    padding-top: 40px;
+}
+label {
+    font-size: 15px;
+    color: #ff6c08;
+}
+#message {
+    padding: 50px 100px;
+    margin:auto;
+}
+
+/* End of Main*/
+
+/* Footer */
+
+footer {
+    border-top: 1px solid black;
+    padding-top: 2em;
+    margin: 0 4em;
+    text-align: center;
+}
+#footerLinks {
+    display: inline;
+}
+footer ul {
+    display: inline-block;
+    padding: 1% 7% 1% 4%;
+    line-height: 2.5em;
+    text-align: center;
+}
+footer p {
+    text-align: center;
+    font-size: 0.9em;
+}
+footer a {
+    font-size: 1.2em;
+}
+footer img {
+    margin: 0 2.5em;
+}
+
+ /* End of Footer */
+
+/* End of Page */

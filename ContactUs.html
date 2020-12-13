@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>El Charrito</title>
+	<link rel="stylesheet" type="text/css" href="./Styles/contactus.css">  
+  <script src="./Scripts/contactus.js"></script>
+	<meta name="El Charrito" content="" />
+</head>
+  <body>
+    <!-- Start of Header -->
+    <header>
+      <!-- Nav -->
+      <nav>
+        <a href="#"><img class="logo" src="./images/logo.png" alt="Sumbrero and mustache"></a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Our Story</a></li>
+          <li class="dropdown"><a href="#">Our Menu</a>
+            <div class="dropdownContents"><a href="#">Specials</a></div>
+          </li>
+          <li><a href="#">Locations</a></li>
+          <li class="dropdown"><a href="#">Events</a>
+            <div class="dropdownContents"><a href="#">Gift Cards</a></div>
+          </li>
+          <li><a href="#">Contests</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a class="orangeLinks" href="#">Order Online</a></li>
+        </ul>
+      </nav>
+  </header>
+  <!-- End of Header -->
+  <!-- Start of Main -->        
+  <main id="main">
+    <h1>Contact Us</h1>
+    <form action="#" method="post" id="contactus" name="contactus">       
+      <fieldset>
+        <div id="form-container">
+          <div class="info">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="thename" />
+          </div>
+          <div class="info" id="the_phone">
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="thephone" />
+          </div>
+          <div class="info" id="the_email">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="theemail" />
+          </div>
+          <div class="info" id="the_zip">
+            <label for="zip">Zip-Code</label>
+            <input type="text" id="zip" name="thezip"/>
+          </div>
+          <div id="province">
+            <select id="prov" name="theprov">
+              <option value="0">===Choose Province===</option>
+              <option value="AB">Alberta</option>
+              <option value="BC">British Columbia</option>
+              <option value="MB">Manitoba</option>
+              <option value="NB">New Brunswick</option>
+              <option value="NL">Newfoundland</option>
+              <option value="NS">Nova Scotia</option>
+              <option value="ON">Ontario</option>
+              <option value="PE">Prince Edward Island</option>           
+              <option value="QU">Quebec</option>           
+              <option value="SK">Saskatchewan</option>           
+            </select> 
+          </div>
+          <div>
+            <label for="message">Your Message</label>
+          </div>
+          <div>
+            <textarea id="message" name="message"></textarea>
+          </div>
+          <div>
+            <button type="submit" id="bta">Submit</button>
+          </div>
+        </div>
+      </fieldset>
+    </form>  
+  <!--Output-->
+    <div id="thankyou">
+      <h2>Thank you<span id="customername"></span> for contacting us!</h2>
+    </div>  
+  </main> 
+  <!-- End of Main -->
+  <!-- Footer -->
+    <footer>
+      <a href="#"><img class="logo" src="./images/logo.png" alt="Sumbrero and mustache"></a>
+      <div id="footerLinks">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Our Menu</a></li>
+          <li><a href="#">Specials</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Locations</a></li>
+          <li><a href="#">Events</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Gift Cards</a></li>
+          <li><a href="#">Contests</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Site Map</a></li>
+          <li><a href="#">Terms and conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+        <p>© Copyright El Charrito, 2020. All rights reserved.</p>
+    </footer>
+    <!-- End of Footer -->    
+  </body>
+</html>
+        
