@@ -51,7 +51,7 @@ p {
     color: white;
     border-radius: .8em;
     padding: .8em .8em;
-    font: normal 350 1.7em/1em "Bahnschrift", "sans serif";
+    font: normal 1.7em/1em "Bahnschrift", "sans serif";
 }
 .orangeLinks:hover {
     color: black;
