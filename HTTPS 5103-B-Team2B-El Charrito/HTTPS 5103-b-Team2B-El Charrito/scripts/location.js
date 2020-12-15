@@ -14,7 +14,7 @@ function initMap() {
 	// The Map
 	const map = new google.maps.Map(mapInDom, mapOptions);
 
-	// Set The Marker
+	// Set The Marker on the map
 	new google.maps.Marker({
 		position: ourLocation,
 		map,
